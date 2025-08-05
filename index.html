@@ -1,59 +1,97 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mertens Group SRL</title>
   <style>
-    * {
+    body {
       margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
     }
-    html, body {
-      height: 100%;
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, Helvetica, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    header {
+      background-color: #004080;
+      padding: 20px;
+      color: white;
       text-align: center;
     }
     .container {
+      max-width: 1000px;
+      margin: 40px auto;
       padding: 20px;
-      max-width: 600px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
     }
-    h1 {
-      font-size: 32px;
-      margin-bottom: 20px;
-      letter-spacing: 1px;
+    h1, h2 {
+      color: #004080;
     }
-    p {
-      font-size: 15px;
-      color: #ccc;
-      margin-bottom: 10px;
-      line-height: 1.6;
+    footer {
+      background-color: #eee;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
     }
-    a {
-      color: #ccc;
+    nav a {
+      margin: 0 15px;
       text-decoration: none;
+      color: #fff;
     }
-    a:hover {
-      text-decoration: underline;
+    section {
+      margin-bottom: 30px;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Mertens Group SRL</h1>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#privacidad">Privacidad</a>
+      <a href="#terminos">Términos</a>
+    </nav>
+  </header>
+
   <div class="container">
-    <h1>MERTENS GROUP SRL</h1>
-    <p>Soluciones digitales enfocadas en el crecimiento empresarial.</p>
-    <p>CUIT: 30-71452369-0</p>
-    <p>Dirección: Av. Colón 1455, Córdoba Capital, Córdoba, Argentina</p>
-    <p>Teléfono: +54 351 872-3787</p>
-    <p>Email: <a href="mailto:adfu@mertensgroup.shop">adfu@mertensgroup.shop</a></p>
-    <p>Web: <a href="https://mertensgroup.shop" target="_blank">mertensgroup.shop</a></p>
+    <section id="descripcion">
+      <h2>Sobre Nosotros</h2>
+      <p>Mertens Group SRL es una empresa argentina especializada en soluciones digitales, desarrollo web y asesoría tecnológica. Nuestro objetivo es brindar herramientas modernas a negocios en crecimiento para potenciar su presencia digital.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Diseño y desarrollo de sitios web</li>
+        <li>Consultoría en tecnologías digitales</li>
+        <li>Automatización de procesos online</li>
+        <li>Marketing y estrategias de contenido</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p><strong>Dirección:</strong> Av. Colón 1450, Córdoba, Argentina</p>
+      <p><strong>Teléfono:</strong> +54 351 555-2233</p>
+      <p><strong>Email:</strong> contacto@mertensgroup.shop</p>
+      <p><strong>CUIT:</strong> 30-71653485-7</p>
+    </section>
+
+    <section id="privacidad">
+      <h2>Política de Privacidad</h2>
+      <p>En Mertens Group SRL respetamos la privacidad de nuestros visitantes. No recopilamos información personal sin consentimiento. Toda la información proporcionada se utiliza exclusivamente con fines administrativos o de contacto.</p>
+    </section>
+
+    <section id="terminos">
+      <h2>Términos y Condiciones</h2>
+      <p>El acceso y uso de este sitio implica la aceptación de estos términos. El contenido publicado es informativo y puede modificarse sin previo aviso. Mertens Group SRL no se responsabiliza por el uso indebido del contenido del sitio.</p>
+    </section>
   </div>
+
+  <footer>
+    &copy; 2025 Mertens Group SRL - Todos los derechos reservados
+  </footer>
 </body>
 </html>
